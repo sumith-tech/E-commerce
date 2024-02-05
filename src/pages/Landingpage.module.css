@@ -1,0 +1,43 @@
+.landing {
+  display: flex;
+  position: static;
+  width: 100%;
+  background-color: rgba(75, 38, 211, 0.61);
+}
+.Categories {
+  display: flex;
+  background-color: aqua;
+}
+.title {
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.747);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Protest Riot", sans-serif;
+}
+.allitems {
+  display: flex;
+  margin-top: 90px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.items {
+  padding: 2em;
+  text-align: center;
+}
+.image {
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 786px) {
+  .image {
+    box-shadow: 10px 10px 5px rgb(36, 32, 54);
+  }
+}
