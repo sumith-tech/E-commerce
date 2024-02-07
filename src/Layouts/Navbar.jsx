@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import LogoutButton from "./LogoutButton";
-import { FaShoppingCart } from "react-icons/fa";
-import { useDispatch } from "react-redux";
-import { uisliceAction } from "../Redex/ui-slice";
-import { useSelector } from "react-redux";
 import "./Navbar.css";
 import CartButton from "./CartButton";
 const Navbar = () => {
-  const iscartopen = useSelector((state) => state.ui.showCart);
-  const dispatch = useDispatch();
+
   let links = [
     { name: "Home", link: "./#home" },
     { name: "Categories", link: "./#Categories" },
