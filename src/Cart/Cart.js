@@ -11,7 +11,7 @@ import Modal from "../Modal/Modal";
 import CartItem from "./CartItem";
 import { Button } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
-import { uisliceAction } from "../Redex/ui-slice";
+import { uisliceAction } from "../Redux/ui-slice";
 
 const Cart = () => {
   const dispatch = useDispatch();

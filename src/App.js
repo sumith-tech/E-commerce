@@ -10,8 +10,8 @@ import Groceriespage from "./products page/Groceriespage";
 import Cart from "./Cart/Cart";
 import { useDispatch, useSelector } from "react-redux";
 import { Fragment, useEffect } from "react";
-import { sendCartdata } from "./Redex/cart-actions";
-import { getCartdata } from "./Redex/cart-actions";
+import { sendCartdata } from "./Redux/cart-actions";
+import { getCartdata } from "./Redux/cart-actions";
 import Authform from "./Authform/Authform";
 
 let isInitial = true;

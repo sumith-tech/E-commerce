@@ -2,7 +2,7 @@ import React from "react";
 import { MDBCard, MDBCardBody, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import { Button } from "react-bootstrap";
 import { useDispatch } from "react-redux";
-import { cartSliceAction } from "../Redex/cart-slice";
+import { cartSliceAction } from "../Redux/cart-slice";
 
 const CartItem = (props) => {
   const { name, id, price, quantity, totalprice } = props;

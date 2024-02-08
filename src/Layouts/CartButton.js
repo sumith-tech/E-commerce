@@ -1,7 +1,7 @@
 import { memo } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { uisliceAction } from "../Redex/ui-slice";
+import { uisliceAction } from "../Redux/ui-slice";
 import { useSelector } from "react-redux";
 const CartButton = () => {
   const cartQuantity = useSelector((state) => state.cart.totalquantity);

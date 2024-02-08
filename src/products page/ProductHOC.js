@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Productpagestyle.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { cartSliceAction } from "../Redex/cart-slice";
+import { cartSliceAction } from "../Redux/cart-slice";
 
 const ProductHOC = (props) => {
   const { name, price, imageUrl, id, quantity } = props;
