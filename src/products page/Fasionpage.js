@@ -7,38 +7,39 @@ import fashion4 from "../assets/fasion/fashion-4.webp";
 import fashion5 from "../assets/fasion/fashion-5.webp";
 import NavbarForCategories from "../Layouts/NavbarForCategories";
 import ProductHOC from "./ProductHOC";
+import Footer from "../pages/Footer";
 
 const productsArr = [
   {
-    id: 'f1',
+    id: "f1",
     name: "AUSK Printed Men Hooded",
     price: 100,
     imageUrl: fashion1,
     quantity: 1,
   },
   {
-    id: 'f2',
+    id: "f2",
     name: "LEWEL Typography Men Hooded",
     price: 50,
     imageUrl: fashion3,
     quantity: 1,
   },
   {
-    id: 'f3',
+    id: "f3",
     name: "Jump Cuts Solid Men Round Neck",
     price: 70,
     imageUrl: fashion2,
     quantity: 1,
   },
   {
-    id: 'f4',
+    id: "f4",
     name: "Rich Club Round Sunglasses Black ",
     price: 100,
     imageUrl: fashion4,
     quantity: 1,
   },
   {
-    id: 'f5',
+    id: "f5",
     name: "VECTOR X Blaster Cricket Shoes",
     price: 100,
     imageUrl: fashion5,
@@ -66,6 +67,7 @@ const Fasionpage = () => {
           </ul>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };

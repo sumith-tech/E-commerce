@@ -5,6 +5,7 @@ import beauty2 from "../assets/beauty/beauty-2.webp";
 import beauty3 from "../assets/beauty/beauty-3.webp";
 import NavbarForCategories from "../Layouts/NavbarForCategories";
 import ProductHOC from "./ProductHOC";
+import Footer from "../pages/Footer";
 
 const productsArr = [
   {
@@ -50,6 +51,7 @@ const Beautypage = () => {
           </ul>
         </div>
       </div>
+      <Footer/>
     </Fragment>
   );
 };

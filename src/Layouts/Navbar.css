@@ -5,7 +5,7 @@
   height: 28px;
   height: auto;
   overflow: hidden;
- 
+
   .count {
     position: absolute;
     top: 0;
@@ -22,5 +22,15 @@
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+  }
+}
+.monk {
+  font-family: "Nova Script", system-ui;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+@media (max-width: 600px) {
+  .monk {
+    font-size: 20px;
   }
 }

@@ -1,6 +1,7 @@
 .landing {
   display: flex;
   position: static;
+ background-color: #ffffff;
 }
 .allitems {
   display: flex;

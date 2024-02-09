@@ -12,8 +12,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Fragment, useEffect } from "react";
 import { sendCartdata } from "./Redux/cart-actions";
 import { getCartdata } from "./Redux/cart-actions";
-import Authform from "./Authform/Authform";
-
+import Aboutus from "./pages/Aboutus";
+import Footer from "./pages/Footer";
 let isInitial = true;
 
 const App = () => {
@@ -43,9 +43,10 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landingpage />} />
-          <Route path="/login" element={<Authform />} />
           <Route path="/categories/#home" element={<Landingpage />} />
           <Route path="/categories/#Categories" element={<Landingpage />} />
+          <Route path="/categories/#about" element={<Aboutus />} />
+          <Route path="/categories/#contact" element={<Footer />} />
           <Route path="/categories/Mobiles" element={<Mobilepage />} />
           <Route path="/categories/Fashion" element={<Fasionpage />} />
           <Route path="/categories/Furnitures" element={<Furniturepage />} />

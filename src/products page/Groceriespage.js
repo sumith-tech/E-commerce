@@ -4,17 +4,18 @@ import grocery1 from "../assets/groceries/grocery-1.webp";
 import grocery2 from "../assets/groceries/grocery-2.webp";
 import NavbarForCategories from "../Layouts/NavbarForCategories";
 import ProductHOC from "./ProductHOC";
+import Footer from "../pages/Footer";
 
 const productsArr = [
   {
-    id: 'gr1',
+    id: "gr1",
     name: "Rajasthani Green Chilli Pickle ",
     price: 100,
     imageUrl: grocery1,
     quantity: 1,
   },
   {
-    id: 'gr2',
+    id: "gr2",
     name: "HyperFoods Diwali Gifts Tropical Dryfruits",
     price: 50,
     imageUrl: grocery2,
@@ -41,6 +42,7 @@ const Groceriespage = () => {
           </ul>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };

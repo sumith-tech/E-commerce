@@ -15,7 +15,7 @@ const CartButton = () => {
       onClick={setopenCart}
       className=" md:ml-8 h-6 hover:bg-red-400 duraion-500  bg-transparent "
     >
-      <div className="cart">
+      <div className="cart md:text-blue-100">
         <span className="count">{cartQuantity}</span>
 
         <FaShoppingCart />

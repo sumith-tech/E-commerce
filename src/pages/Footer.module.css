@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.925);
+  color: rgb(243, 223, 196);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+
+  h4 {
+    margin-left: 1.2em;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(243, 223, 196);
+    margin-left: 0.5em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+}

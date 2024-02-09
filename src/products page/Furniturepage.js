@@ -7,37 +7,38 @@ import furn4 from "../assets/furniture/furniture-4.webp";
 import furn5 from "../assets/furniture/furniture-5.webp";
 import NavbarForCategories from "../Layouts/NavbarForCategories";
 import ProductHOC from "./ProductHOC";
+import Footer from "../pages/Footer";
 const productsArr = [
   {
-    id: 'fr1',
+    id: "fr1",
     name: "Jordyblue Marvin 3R Rocking",
     price: 100,
     imageUrl: furn1,
     quantity: 1,
   },
   {
-    id: 'fr2',
+    id: "fr2",
     name: " Multipurpose Table ",
     price: 50,
     imageUrl: furn2,
     quantity: 1,
   },
   {
-    id: 'fr3',
+    id: "fr3",
     name: "BLUEWUD Oleye 2 Door Shoe Rack",
     price: 70,
     imageUrl: furn3,
     quantity: 1,
   },
   {
-    id: 'fr4',
+    id: "fr4",
     name: "KAIZONE Multipurpose Foldable with Cup Holder",
     price: 100,
     imageUrl: furn4,
     quantity: 1,
   },
   {
-    id: 'fr5',
+    id: "fr5",
     name: "Wood King Box Bed",
     price: 100,
     imageUrl: furn5,
@@ -64,6 +65,7 @@ const Furniturepage = () => {
           </ul>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };

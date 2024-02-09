@@ -5,24 +5,25 @@ import electronic2 from "../assets/electronics/electronic-2.webp";
 import electronic3 from "../assets/electronics/electronic-3.webp";
 import NavbarForCategories from "../Layouts/NavbarForCategories";
 import ProductHOC from "./ProductHOC";
+import Footer from "../pages/Footer";
 
 const productsArr = [
   {
-    id: 'e1',
+    id: "e1",
     name: "MOTOROLA EnvisionX Google TV ",
     price: 100,
     imageUrl: electronic1,
     quantity: 1,
   },
   {
-    id: 'e2',
+    id: "e2",
     name: "SONY ZV-1F Vlog Camera",
     price: 50,
     imageUrl: electronic2,
     quantity: 1,
   },
   {
-    id: 'e3',
+    id: "e3",
     name: "Realme TWS",
     price: 70,
     imageUrl: electronic3,
@@ -50,6 +51,7 @@ const Electronicpage = () => {
           </ul>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };
